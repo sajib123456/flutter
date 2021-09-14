@@ -1,5 +1,7 @@
-import 'package:flutter/cupertino.dart';
+//import 'dart:html';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,10 +18,19 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               Text(
-                "hello 1",
-                style: TextStyle(fontSize: 45.5,color: Colors.blue,fontWeight: FontWeight.bold
+                "Hello Bangladesh",
+                style: TextStyle(
+                    color: Colors.green,
+                    fontSize: 50.8,
+                    fontWeight: FontWeight.bold),
               ),
-              Text("hello 2"),
+              Text(
+                "Hello World",
+                style: TextStyle(
+                    color: Colors.red,
+                    fontSize: 35.8,
+                    fontWeight: FontWeight.normal),
+              )
             ],
           ),
         ),
